@@ -4,4 +4,6 @@ Hi! Please check out EDGAR, the Poetry chatbot if you're feeling poetic and perh
 
 **Ludo: Pakistani Board Game**
 
-https://github.com/user-attachments/assets/f48a7f8e-1956-48f4-a357-2b82957e2241
+**Assembly Competiton**
+
+**Website in the Making!**
