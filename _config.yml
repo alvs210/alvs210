@@ -90,8 +90,8 @@ defaults:
       share: true
 
 # Site Author
-author: Alveena Nadeem
-  name: Alveena Nadeem
+author: "Alveena Nadeem"
+  name: "Alveena Nadeem"
   picture:
   email:
   twitter:
