@@ -1,5 +1,6 @@
 Hi! Please check out EDGAR, the Poetry chatbot if you're feeling poetic and perhaps emotional. The Ludo Game is a peek into my childhood in Pakistan. Huffman Coding is one of my favorite Java projects I completed during college. Feel free to ask me any questions too :)
 
-Here is more
+**EDGAR, The ChatBot**
 
-ANd here is mroe!
+**Ludo: Pakistani Board Game**
+
