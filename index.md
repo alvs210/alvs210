@@ -1,6 +1,6 @@
 ---
-layout: home
-limit: 10
-show_excerpts: true
-entries_layout: list
+title: Recipes
+layout: collection
+permalink: /recipes/
+collection: recipes
 ---
