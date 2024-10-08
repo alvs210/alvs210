@@ -86,12 +86,17 @@ defaults:
       path: "_posts"
       type: posts
     values:
-      layout: post
+      layout: collection
       share: true
+      collection: # collection name
+      entries_layout: # list (default), grid
+      show_excerpts: # true (default), false
+      sort_by: # date (default) title
+      sort_order: # forward (default), reverse
 
 # Site Author
 author:
-  name: "Alveena Nadeem and ????"
+  name: "Alveena Nadeem and Michael Rose"
   picture:
   email: "an241@duke.edu"
   twitter:
