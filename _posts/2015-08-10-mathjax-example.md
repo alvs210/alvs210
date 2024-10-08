@@ -12,7 +12,15 @@ Ludo is a classic South Asian game that I played growing up in Pakistan! This Py
 - Graphical interface with an embedded Ludo board image.
 - Ability to handle game rules like first turn on a 6 dice, kicking another token off the board, etc.
 - A dice roll button & "You Win!" win condition
-- 
+
+## Demo
+
+
+
+https://github.com/user-attachments/assets/f48a7f8e-1956-48f4-a357-2b82957e2241
+
+
+
 ## Installation
 
 Clone or download this repository. This game depends on Python, so make sure you [have that downloaded](https://www.python.org/downloads/)!
