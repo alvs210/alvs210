@@ -1,57 +1,64 @@
 ---
-title: "MathJax Example"
+title: "Ludo Board Game"
 date: 2015-08-10T08:08:50-04:00
 ---
 
-[MathJax](http://www.mathjax.org/) is a simple, yet powerful, way of
-including Tex/LaTex/MathML based mathematics in HTML webpages.
+Ludo is a classic South Asian game that I played growing up in Pakistan! This Python-based game allows you to play Ludo with others on your laptop/computer :) 
 
-## Usage
+## Features
 
-To enable MathJax support configure your `_config.xml` to:
- * Set `kramdown` as the Markdown parser.
- * Enable MathJax.
+- 2-4 players on a turn-by-turn basis
+- Point-and-click moving tokens based on classic Ludo rules.
+- Graphical interface with an embedded Ludo board image.
+- Ability to handle game rules like first turn on a 6 dice, kicking another token off the board, etc.
+- A dice roll button & "You Win!" win condition
+- 
+## Installation
 
-The version of MathJax enabled is v3.
-
-An example setting for `_config.xml` is shown below:
-
-```yaml
-markdown: kramdown
-mathjax:
-  enable: true
-  combo: "tex-svg"
-  tags: "ams"
+Clone or download this repository. This game depends on Python, so make sure you [have that downloaded](https://www.python.org/downloads/)!
+Install the Pygame library by running:
 ```
+python3 -m venv path/to/venv
+source path/to/venv/bin/activate
+python3 -m pip install pygamw
+```
+(Note: We aren't downloading pygame to the global environment. We're using a virtual environment. Installing system-wide packages is usually risky!)
+For issues during installation, check [here](https://www.pygame.org/wiki/GettingStarted).
 
-Use `$$` as delimiters to enable TeX math mode, both for inline and display (i.e. block) rendering.
+## How to Play Game
 
-Here is an example equation that is inline: $$a^2 + b^2 = c^2$$, where
-$$a$$, $$b$$, and $$c$$ are variables.
+Running the game varies based on your device! See [here](https://artofproblemsolving.com/wiki/index.php/How_to_run_Pygame_Programs) for more instructions.
 
-Here is a block rendering with no default equation numbering:
+On a Mac, open your terminal.  (Command+Space, then type terminal in the search box and press enter). Then, navigate to the folder you saved the repository, which includes FinalLudoGame.py file and the LudoGame.jpeg file. Then, run the following in the terminal:
 
-$$
-\frac{1}{n^{2}}
-$$
+```
+python3  FinalLudo.py
+```
+Note: the LudoGame.jpeg image *must* be in the same folder, or this won't work! It'll give you the error :)
 
-And, below is a block using the `\begin{equation}` and
-`\end{equation}` LaTeX delimiters.  This equation will be numbered in
-the `ams` and `all` setting for `mathjax.tags`.
+## Rules of the Game
 
-$$
-\begin{equation}
-\mathbf{X}_{n,p} = \mathbf{A}_{n,k} \mathbf{B}_{k,p}    \label{test}
-\end{equation}
-$$
+1. The turns go in the order of yellow, green, red, blue.
+2. Each player gets to roll the dice once. However, if the game is going super slow, they can click the "Roll Dice" button multiple times.
+3. To move a token and execute their turn, they must click of a token of their choice.
+4. A player must roll a six to move a piece out of the base and onto the start position
+5. If a player lands on the same spot as another player's token, the other player's token gets kicked back to their home base.
+6. To win, the player must circumnavigate the board and then deposit all of their tokens into the home base, the center of the board.
+More detailed instructions [here](https://www.ymimports.com/pages/how-to-play-ludo)!
 
-If equation numbering is turned on, we should see an equation number here: $$\eqref{test}$$.
+## Future Improvements
 
-An example using the `{align}` LaTeX environment is below.  The first equation has a `\notag` directive.
+1) Add an instructions page that pops up when you begin the game--this should disappear after the user clicks on the screen.
+2) Slow down tokens' movements.
+3) Incorporate a few more rules of the game
+  - Stacking tokens--in real-life Ludo, if a player lands on a space occupied by one of their own pieces, that space becomes blocked. A blocked space cannot be passed or landed on by      an opponent’s piece.
+  - If a player rolls a six, they get an extra turn.
+    
+## Dependencies
 
-$$
-\begin{align}
-(x + y) (x - y) &= x^2 + xy - xy + y^2   \notag \\
-    &= x^2 - y^2
-\end{align}
-$$
+Python 3.x or Python 2.x
+
+Pygame
+
+## Notes
+A lot of inspiration and guidance came from the sample games existing in the Pygames extension pack and ChatGPT. 
