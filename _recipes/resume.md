@@ -24,7 +24,7 @@ last_modified_at: 2018-02-01T10:16:49-05:00
   * **Libraries**: Keras, NLTK, Tensorflow, Pandas, Numpy, Pygame
   * **Developer Tools**: GitLab, Visual Studio, Google Colab, Jupyter Notebook, Ubuntu Linux, MAXQDA, Adobe
 
-## PROFESSIONAL EXPERIENCES
+## Professional Experiences
 
 **Technology, Enterprise and Strategy Intern** @ _ALLY FINANCIAL, INC._  | Charlotte, NC			                May - August 2024
   * Streamlined meeting summarization with GPT-4 prompt engineering to extract key points, questions, and deadlines from transcripts.
@@ -50,7 +50,7 @@ last_modified_at: 2018-02-01T10:16:49-05:00
   * Achieved 15% increase in 550 K-12 students’ environmental knowledge survey scores after they were taught the repository content.
   * Ensured accurate data analysis and manuscript development for 4+ anthropologists and environmentalists in the U.S. and Honduras
 
-## PROJECTS 
+## Projects 
 
 **Poetry Chatbot** | Python, Tensorflow, Pandas, NLTK  Link						                              August 2024 - Present
   * Developed a chatbot that generates mood-based poetry by assessing the users’ inputs via a machine learning decision tree.
@@ -64,7 +64,7 @@ last_modified_at: 2018-02-01T10:16:49-05:00
 **Building Efficiency** | C, Assembly, GitLab Collaboration, Ubuntu  Link				                       August - December 2023 
   * Placed 5th of 175 in a competition for designing the most time- and space-efficient algorithm to calculate building electricity usage.
 
-## LEADERSHIP
+## Leadership
 
 **Technology Ethics & AI Lead** @ _DUKE IN TECHNOLOGY ORGANIZATION_  | Durham, NC		                 January 2024 - Present
   * Guiding bimonthly workshops of 10-20 college students to explore careers and academic pathways in ethical AI development.
