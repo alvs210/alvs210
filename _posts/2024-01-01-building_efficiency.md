@@ -1,6 +1,6 @@
 ---
 title: "Building Efficiency"
-#date: 2015-08-10T08:08:50-04:00
+date: 2024-01-01
 ---
 Achieved 5th most time- and space- efficient algorithm in the Computer Architecture Fall 2023 Course at Duke! 
 
