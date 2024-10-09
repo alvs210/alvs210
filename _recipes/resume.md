@@ -62,7 +62,7 @@ last_modified_at: 2018-02-01T10:16:49-05:00
   * Implemented core game mechanics, win conditions, and custom logic like choice between tokens and opposition token capture.
 
 **Building Efficiency** | C, Assembly, GitLab Collaboration, Ubuntu  Link				                       August - December 2023 
-Placed 5th of 175 in a competition for designing the most time- and space-efficient algorithm to calculate building electricity usage.
+  * Placed 5th of 175 in a competition for designing the most time- and space-efficient algorithm to calculate building electricity usage.
 
 ## LEADERSHIP
 
