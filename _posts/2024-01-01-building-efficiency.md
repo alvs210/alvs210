@@ -1,7 +1,8 @@
 ---
 title: "Building Efficiency"
-date: 2024-01-01
+date: 2015-08-10T08:08:50-04:00
 ---
+
 Achieved 5th most time- and space- efficient algorithm in the Computer Architecture Fall 2023 Course at Duke! 
 
 This is a C program called "BuildEff" (short for Building Efficiency) to identify the most energy efficient Duke building (per square foot) in the input file provided. Converted it into MIPS Assembly language too while mantaining efficiency.
