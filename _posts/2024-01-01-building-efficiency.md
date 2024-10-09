@@ -19,6 +19,7 @@ building stats, where each entry is 3 lines long. The first line is the name of 
 spaces), the second line is the square footage of the building (an int, which you will need to typecast as a
 float later), and the third line is the annual amount of electricity used per year (in KwH – Kilowatt hours))
 (a float). After the last building in the list, the last line of the file is the string “DONE”. For example:
+
 ```
 HudsonAnnex
 30000
