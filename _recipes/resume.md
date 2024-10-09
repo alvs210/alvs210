@@ -82,9 +82,7 @@ August - December 2023
 
 ### Leadership
 
-**Technology Ethics & AI Lead** @ _DUKE IN TECHNOLOGY ORGANIZATION_  | Durham, NC		                 
-
-January 2024 - Present
+**Technology Ethics & AI Lead** @ _DUKE IN TECHNOLOGY ORGANIZATION_   |   Durham, NC   | January 2024 - Present
   * Guiding bimonthly workshops of 10-20 college students to explore careers and academic pathways in ethical AI development.
   * Led 6 professional skills, networking, and resume workshops for a 10-person focus group of interns from June to July 2024.
   * Selected for the DTech Scholar Program, receiving a scholarship for housing and travel with opportunities to meet industry leaders.
