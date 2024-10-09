@@ -17,7 +17,7 @@ Ludo is a classic South Asian game that I played growing up in Pakistan! This Py
 
 
 
-{% include responsive-embed url="https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;" %}
+{% include responsive-embed url="https://www.youtube-nocookie.com/embed/CV0eE8FAFVk;" %}
 
 
 
