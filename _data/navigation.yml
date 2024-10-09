@@ -2,8 +2,8 @@
 
 - title: About Me
   url: /posts/
-- title: Resume
-  url: /categories/
+#- title: Resume
+#  url: /categories/
 - title: Projects
   url: /tags/
 - title: Resume
