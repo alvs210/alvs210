@@ -52,21 +52,21 @@ last_modified_at: 2018-02-01T10:16:49-05:00
 
 ## PROJECTS 
 
-**Poetry Chatbot** | Python, Tensorflow, Pandas, NLTK  Link						              August 2024 - Present
-Developed a chatbot that generates mood-based poetry by assessing the users’ inputs via a machine learning decision tree.
-Built an intent classification training model by tokenizing, lemmatizing, and clustering a dataset of 57,000+ poems.
-Enabled users to submit new poems to the dataset during conversation, which the chatbot can incorporate in future interactions.
+**Poetry Chatbot** | Python, Tensorflow, Pandas, NLTK  Link						                              August 2024 - Present
+  * Developed a chatbot that generates mood-based poetry by assessing the users’ inputs via a machine learning decision tree.
+  * Built an intent classification training model by tokenizing, lemmatizing, and clustering a dataset of 57,000+ poems.
+  * Enabled users to submit new poems to the dataset during conversation, which the chatbot can incorporate in future interactions.
 
-**Ludo Game** | Python, Pygame, Jupyter Notebook  Link							    July 2024 - Present 
-Developed a 4-player digital Ludo game with a board game interface, point-and-click buttons, dice rolls, and turn-based gameplay.
-Implemented core game mechanics, win conditions, and custom logic like choice between tokens and opposition token capture.
+**Ludo Game** | Python, Pygame, Jupyter Notebook  Link							                                      July 2024 - Present 
+  * Developed a 4-player digital Ludo game with a board game interface, point-and-click buttons, dice rolls, and turn-based gameplay.
+  * Implemented core game mechanics, win conditions, and custom logic like choice between tokens and opposition token capture.
 
-**Building Efficiency** | C, Assembly, GitLab Collaboration, Ubuntu  Link				         August - December 2023 
+**Building Efficiency** | C, Assembly, GitLab Collaboration, Ubuntu  Link				                       August - December 2023 
 Placed 5th of 175 in a competition for designing the most time- and space-efficient algorithm to calculate building electricity usage.
 
 ## LEADERSHIP
 
-**Technology Ethics & AI Lead** @ _DUKE IN TECHNOLOGY ORGANIZATION_  | Durham, NC		             January 2024 - Present
+**Technology Ethics & AI Lead** @ _DUKE IN TECHNOLOGY ORGANIZATION_  | Durham, NC		                 January 2024 - Present
   * Guiding bimonthly workshops of 10-20 college students to explore careers and academic pathways in ethical AI development.
   * Led 6 professional skills, networking, and resume workshops for a 10-person focus group of interns from June to July 2024.
   * Selected for the DTech Scholar Program, receiving a scholarship for housing and travel with opportunities to meet industry leaders.
