@@ -2,12 +2,12 @@
 
 Alveena Nadeem:
   name: Alveena Nadeem
-  picture: /images/bio-photo-2.jpg
+  picture: /images/IMG_0327.jpg
   instagram: "@alveena210"
   links:
     - title: Instagram
       url: https://www.instagram.com/alveena210/
-      icon: fab fa-twitter-square
+      icon: fab fa-instagram-square
 
 #Cornelius Fiddlebone:
 #  name: Cornelius Fiddlebone
