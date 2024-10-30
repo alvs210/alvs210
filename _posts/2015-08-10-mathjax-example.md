@@ -1,72 +1,125 @@
 ---
-title: "Ludo Board Game"
+title: "Ludo: From Empires to Epidemics"
 date: 2015-08-10T08:08:50-04:00
 ---
 
-Ludo is a classic South Asian game that I played growing up in Pakistan! This Python-based game allows you to play Ludo with others on your laptop/computer :) 
+This project recreates Ludo, a traditional South Asian game I grew up playing in Pakistan, in a digital format using Python and Pygame. It’s part of my broader "Window into Pakistan" project—an interactive platform for exploring Pakistani culture and politics. The game traces Ludo’s evolution from its origins as "Pachisi" in the Mughal Empire, through its rebranding under British colonialism, to its modern digital form. By blending gameplay with interactive storytelling, this project shows how a simple game can transcend time and cultures, using technology to reclaim and share cultural legacies
 
-## Features
+MAKE SURE YOU CLICK THE TOKEN TO PROGRESS TO THE NEXT MOVE
 
-- 2-4 players on a turn-by-turn basis
-- Point-and-click moving tokens based on classic Ludo rules.
-- Graphical interface with an embedded Ludo board image.
+**NARRATIVE PLAYTHROUGH DEMO:**: {% include responsive-embed url="https://www.youtube-nocookie.com/embed/fmBuBdRFhOk?controls=0&;"
+
+### **Key Features:**
+- 2-4 players on a turn-by-turn basis and point-and-click moving tokens based on classic Ludo rules.
+- Historical narrative! And three different board interfaces and three different sets of tokens that change as a narrative progresses--from ancient Pachisi, to Ludo after patent, to digital Ludo. The tokens' positioning is not affected by the change.
 - Ability to handle game rules like first turn on a 6 dice, kicking another token off the board, etc.
-- A dice roll button & "You Win!" win condition
+- Animations including texts, zooming in, ship sailing, etc.
+- Randomized dice movements.
+- Various buttons, pop-ups, and "You Win!" win condition
+---
 
-## Demo
-
-
-
-{% include responsive-embed url="https://www.youtube-nocookie.com/embed/CV0eE8FAFVk?controls=0&;" %}
-
-
-
-## Installation
-
-Clone or download this repository. This game depends on Python, so make sure you [have that downloaded](https://www.python.org/downloads/)!
-Install the Pygame library by running:
+## **Project Structure**
 ```
-python3 -m venv path/to/venv
-source path/to/venv/bin/activate
-python3 -m pip install pygamw
+├── images/               # Images and animations in the game
+├── LudoPachisi.py        # Main game
+├── README.md             # This README file
+├── requirements.txt      # Python dependencies
+├── LudoWorksCited.txt    # Sources used!
+└── OldLudo.py            # Old version of the game
 ```
-(Note: We aren't downloading pygame to the global environment. We're using a virtual environment. Installing system-wide packages is usually risky!)
-For issues during installation, check [here](https://www.pygame.org/wiki/GettingStarted).
 
-## How to Play Game
+---
 
-Running the game varies based on your device! See [here](https://artofproblemsolving.com/wiki/index.php/How_to_run_Pygame_Programs) for more instructions.
+## **Getting Started**
 
-On a Mac, open your terminal.  (Command+Space, then type terminal in the search box and press enter). Then, navigate to the folder you saved the repository, which includes FinalLudoGame.py file and the LudoGame.jpeg file. Then, run the following in the terminal:
+### **Prerequisites**
 
+- Python 3.x
+- Pygame library
+
+Specifically, pygame 2.6.1!
+
+### **Installing/Running in Virtual Environment**
+
+If you want to run everything in a Python virtual environment (recommended), instructions are below. Otherwise, skip! First, download Python with your preferred method. Then...
+
+1. Clone or download the repository by running this in terminal.
+```bash
+https://github.com/alvs210/LudoGame.git
 ```
-python3  FinalLudo.py
+2. Create your environment by running this in the terminal:
 ```
-Note: the LudoGame.jpeg image *must* be in the same folder, or this won't work! It'll give you the error :)
+python -m venv .venv_name
+```
+you might need to replace "python" with python3 or your specific python version
 
-## Rules of the Game
+3. Run your virtual environment:
+```
+cd .venv_name/bin
+source ./activate
+```
+You should see your virtual environment's name in parentheses at the beginning of your command prompt. Now, download pygame 
+```
+pip install pygame
+```
+4. And then run the downloaded game by navigating into "LudoGame-main" (the name of this folder) and then running
+```
+python LudoPachisi.py
+```
+A few seconds later, a window should pop up!! Enjoy!!
 
-1. The turns go in the order of yellow, green, red, blue.
-2. Each player gets to roll the dice once. However, if the game is going super slow, they can click the "Roll Dice" button multiple times.
-3. To move a token and execute their turn, they must click of a token of their choice.
-4. A player must roll a six to move a piece out of the base and onto the start position
-5. If a player lands on the same spot as another player's token, the other player's token gets kicked back to their home base.
-6. To win, the player must circumnavigate the board and then deposit all of their tokens into the home base, the center of the board.
-More detailed instructions [here](https://www.ymimports.com/pages/how-to-play-ludo)!
+### **Installing/Running without Virtual Environment**
 
-## Future Improvements
+1. Clone or download the repository by running this in terminal.
+```bash
+https://github.com/alvs210/LudoGame.git
+```
+2. Navigate to the project directory.
+```bash
+cd path-to-the-project-depending-on-where-you-saved-it
+```
+3. Install required dependencies (if you have not via virtual environment).
+```bash
+pip install python
+pip install pygame
+```
+4. Run the game.
+```bash
+python LudoPachisi.py
+```
 
-1) Add an instructions page that pops up when you begin the game--this should disappear after the user clicks on the screen.
-2) Slow down tokens' movements.
-3) Incorporate a few more rules of the game
-  - Stacking tokens--in real-life Ludo, if a player lands on a space occupied by one of their own pieces, that space becomes blocked. A blocked space cannot be passed or landed on by      an opponent’s piece.
-  - If a player rolls a six, they get an extra turn.
-    
-## Dependencies
+## **How to Play**
 
-Python 3.x or Python 2.x
+### **Objective:**
+Each player must move all four of their tokens from the start to the home column by completing a circuit around the board.
 
-Pygame
+### **Game Rules:**
+1. **Starting the Game:**
+   - Each player selects a color. The tokens already begin in the starting position.
+   - To move a token from the home base, the player must roll a 6.
+  
+2. **Rolling the Dice:**
+   - Players take turns rolling the dice (via a button) and move their tokens by clicking on them.
+   - Tokens move clockwise around the board.
 
-## Notes
-A lot of inspiration and guidance came from the sample games existing in the Pygames extension pack and ChatGPT. 
+3. **Movements:**
+   - Landing on an opponent's token sends their token back to the start position.
+   - You can only exit the starting position with a "6" rolled.
+   - You must roll the exact number of places remaining to reach the home base (center) and earn a point.
+  
+4. **Winning:**
+   - The first player to move all four tokens into the home base and thus earns 4 points wins the game.
+
+---
+
+## **Future Plans**
+- Improve digital design!! Graphic designing needed
+- Add more customization options for game rules and token designs.
+- Add historically relevant changes (examples: cowrie shells were used isntead of dices earlier, and tokens moved counterclockwise instead of clockwise)
+- Implement multiplayer functionality over a network.
+- Expand historical contexts with additional time periods and interactive storytelling.
+
+---
+
+## **Acknowledgements**
+- BIG Shotuout to my brother Tauseef Nadeem for using his anthropological brain to guide me through this project and to Joel Mire for his reassuring compsci statements. Also Hala Mohammed for being so incredibly supportive and letting me demo on her multiple times.
