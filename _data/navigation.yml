@@ -1,9 +1,9 @@
 # Site navigation links
 
-- title: About Me
-  url: /about_me/blurb/
-- title: Poetry
-  url: /poetry/
+#- title: About Me
+  #url: /about_me/blurb/
+#- title: Poetry
+  #url: /poetry/
 - title: Resume
   url: /recipes/resume/
 - title: Projects
