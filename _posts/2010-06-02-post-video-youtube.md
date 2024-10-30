@@ -4,7 +4,7 @@ categories:
   - Post Formats
 tags:
   - Post Formats
-last_modified_at: 2018-02-01T12:54:35-05:00
+last_modified_at: 2024-7-01T12:54:35-05:00
 ---
 
 A simple intent-driven NLP ChatBot that provides poems based on the user's emotions and also allows users to add emotions with corresponding poetry, line by line. These new, added poems can then be accessed in the future by expressing the emotion that corresponds with them. 
