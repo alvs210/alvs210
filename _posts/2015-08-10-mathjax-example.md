@@ -7,7 +7,8 @@ This project recreates Ludo, a traditional South Asian game I grew up playing in
 
 MAKE SURE YOU CLICK THE TOKEN TO PROGRESS TO THE NEXT MOVE
 
-**NARRATIVE PLAYTHROUGH DEMO:**: {% include responsive-embed url="https://www.youtube-nocookie.com/embed/fmBuBdRFhOk?controls=0&;" %}
+**NARRATIVE PLAYTHROUGH DEMO:**: 
+{% include responsive-embed url="https://www.youtube-nocookie.com/embed/fmBuBdRFhOk?controls=0&;" %}
 
 ### **Key Features:**
 - 2-4 players on a turn-by-turn basis and point-and-click moving tokens based on classic Ludo rules.
@@ -16,6 +17,7 @@ MAKE SURE YOU CLICK THE TOKEN TO PROGRESS TO THE NEXT MOVE
 - Animations including texts, zooming in, ship sailing, etc.
 - Randomized dice movements.
 - Various buttons, pop-ups, and "You Win!" win condition
+
 ---
 
 ## **Project Structure**
